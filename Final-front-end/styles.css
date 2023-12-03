@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  display: flex;
+
+}
+body{
+  font-family: 'Kanit', sans-serif;
+  width: 100vw;
+  height: 100vh;
+
+}
+.foto{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.esquerda {
+background-color: rgb(30, 0, 255);
+ justify-content: center;
+  height: 95vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.content{
+  width: 70vw;
+  height: 95vh;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  
+}
+span{
+  color: rgb(189, 164, 226);
+}
+
+.images{
+ 
+
+}
+.divimages{
+display: flex;
+justify-content: space-around;
+width: 10vw;
+margin: 20px;
+margin-left: 50px;
+
+}
+h1{
+  font-size: 70px ;
+  text-transform: uppercase;
+}
+
+.textos{
+  margin-left: 3vw;
+  text-align: justify;
+  margin-right: 3vw;
+  color: rgb(255, 255, 255);
+}
+.navbar{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+:link:hover{
+  color: black;
+}
+
+
